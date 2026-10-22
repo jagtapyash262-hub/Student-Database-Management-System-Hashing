@@ -1,0 +1,53 @@
+SAMPLE OUTPUT
+=============
+
+========== STUDENT DATABASE MANAGEMENT SYSTEM ==========
+1. Add Student
+2. Search Student
+3. Update Student
+4. Delete Student
+5. Display All Students
+6. Display Hash Table
+7. Exit
+Enter your choice (1-7): 1
+Enter Roll Number: 101
+Enter Student Name: Aditi Sharma
+Enter Course: BSc CS
+Enter Marks (0-100): 85
+Student added successfully at hash index 1!
+
+Enter your choice (1-7): 1
+Enter Roll Number: 111
+Enter Student Name: Rohan Patil
+Enter Course: BSc CS
+Enter Marks (0-100): 90
+Student added successfully at hash index 1!
+
+Enter your choice (1-7): 2
+Enter Roll Number to Search: 111
+
+Student Record Found
+Hash Index : 1
+Roll Number: 111
+Name       : Rohan Patil
+Course     : BSc CS
+Marks      : 90.00
+
+Enter your choice (1-7): 6
+
+HASH TABLE (Separate Chaining)
+------------------------------------------------------------
+Index 0: EMPTY
+Index 1: 101 (Aditi Sharma) -> 111 (Rohan Patil)
+Index 2: EMPTY
+Index 3: EMPTY
+Index 4: EMPTY
+Index 5: EMPTY
+Index 6: EMPTY
+Index 7: EMPTY
+Index 8: EMPTY
+Index 9: EMPTY
+------------------------------------------------------------
+
+Enter your choice (1-7): 7
+Thank you for using Student Database Management System!
